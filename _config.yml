@@ -11,14 +11,14 @@ background: 'background.jpg'
 favicon: 'favicon.ico'
 
 # Online profiles
-linkedin: 'mylinkedin'
-instagram: 'myinsta'
-github-user: 'mygithub'
-weibo: 'myweibo'
-blog_url: 'myblog.blog.com'
-email: 'hello@example.com'
+resume: 'resume'
+linkedin: 'qin-wu-67517a192/'
+instagram: 'oneariaaa'
+github-user: 'oneariaaa'
+weixin:'weixin_barcode.jpg'
+email: 'wuqin_1997@163.com'
 
-social-links-order: [github-user, instagram, linkedin, weibo, blog_url, email]
+social-links-order: [resume, github-user, linkedin, instagram, weixin, email]
 
 # Advanced settings
 plugins:
@@ -44,15 +44,12 @@ plugins:
 #     - defaults to `fab` style and uses value of `name` attribute (e.g. fab fa-2x fa-twitter)
 #     - **optional**
 social-links:
-  - name: facebook
-    url-pattern: facebook.com/__USERNAME__
-    icon-class: fab fa-2x fa-facebook-f
+  - name: resume
+    url-pattern: oneariaaa.github.io/__USERNAME__
+    icon-class: far fa-2x fa-address-card
 
   - name: linkedin
     url-pattern: linkedin.com/in/__USERNAME__
-
-  - name: google-plus
-    url-pattern: plus.google.com/+__USERNAME__
 
   - name: weibo
     url-pattern: weibo.com/__USERNAME__
@@ -64,9 +61,9 @@ social-links:
     url-pattern: github.com/__USERNAME__
     icon-class: fab fa-2x fa-github
 
-  - name: blog_url
+  - name: weixin
     url-pattern: '__USERNAME__'
-    icon-class: fas fa-2x fa-blog
+    icon-class: far fa-2x fa-weixin
 
   - name: email
     url-scheme: 'mailto:'
