@@ -17,9 +17,8 @@ github-user: 'mygithub'
 weibo: 'myweibo'
 blog_url: 'myblog.blog.com'
 email: 'hello@example.com'
-messenger: 'myfbchat'
 
-social-links-order: [github-user, instagram, linkedin, weibo, messenger, blog_url, email]
+social-links-order: [github-user, instagram, linkedin, weibo, blog_url, email]
 
 # Advanced settings
 plugins:
@@ -64,11 +63,6 @@ social-links:
   - name: github-user
     url-pattern: github.com/__USERNAME__
     icon-class: fab fa-2x fa-github
-
-  - name: messenger
-    url-pattern: m.me/__USERNAME__
-    icon-class: fab fa-2x fa-facebook-messenger
-
 
   - name: blog_url
     url-pattern: '__USERNAME__'
