@@ -14,11 +14,11 @@ favicon: 'favicon.ico'
 resume: 'resume'
 linkedin: 'qin-wu-67517a192/'
 instagram: 'oneariaaa'
-github-user: 'oneariaaa'
-weixin:'weixin_barcode.jpg'
+github: 'oneariaaa'
+weixin: 'wx'
 email: 'wuqin_1997@163.com'
 
-social-links-order: [resume, github-user, linkedin, instagram, weixin, email]
+social-links-order: [resume, github, linkedin, instagram, weixin, email]
 
 # Advanced settings
 plugins:
@@ -57,13 +57,13 @@ social-links:
   - name: instagram
     url-pattern: instagram.com/__USERNAME__
 
-  - name: github-user
+  - name: github
     url-pattern: github.com/__USERNAME__
     icon-class: fab fa-2x fa-github
 
   - name: weixin
     url-pattern: '__USERNAME__'
-    icon-class: far fa-2x fa-weixin
+    icon-class: fa fa-2x fa-weixin
 
   - name: email
     url-scheme: 'mailto:'
