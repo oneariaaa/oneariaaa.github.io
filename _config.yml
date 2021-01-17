@@ -2,8 +2,11 @@
 remote_theme: 'epidrome/cover-card'
 
 # Title and tag line
-title: 'Qin Wu'
-description: '21 MISM @Washington University in St. Louis'
+title: "👋Hello! I'm Qin Wu"
+description: "21'MISM @Washington University in St. Louis
+</br>
+19'CS @Sichuan Agricultural University   
+"
 
 # Images
 avatar: 'avatar.jpg'
@@ -12,7 +15,7 @@ favicon: 'favicon.ico'
 
 # Online profiles
 resume: 'resume'
-linkedin: 'qin-wu-67517a192/'
+linkedin: 'qin-wu-67517a192'
 instagram: 'oneariaaa'
 github: 'oneariaaa'
 weixin: 'wx'
